@@ -22,7 +22,7 @@ module.exports= {
   processMessage= function(message,callback){
       var client = new Client();
       var args={
-          parameters : {id: "104ea5b9-50ad-4b90-8c54-6bd8c27a391f",'subscription-key': "cd3ab42d747b45cb9ecf0c1796ed32ef",q:message}
+          parameters : {id: "Application.ID",'subscription-key': "Application.KEY",q:message}
       }
 
       var req=client.get("https://api.projectoxford.ai/luis/v1/application",args,
