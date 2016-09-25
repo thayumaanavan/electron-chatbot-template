@@ -1,7 +1,7 @@
 # electron-chatbot-template
 
 This is a template to build desktop chatbot application.
-
+Inspired from https://github.com/AndreiD/make_yourself_a_bot 
 
 ## Electron Basics:
 
@@ -28,4 +28,4 @@ cd electron-chatbot-template
 npm install && npm start
 ```
 
-#### License [CC0 (Public Domain)](LICENSE.md)
+#### License [Apache 2.0](LICENSE.md)

@@ -178,7 +178,7 @@ $(document).ready(function () {
 
 
     setTimeout(function () {
-        messenger.receive('You are working in HR. Ask me interview questions ;). You mean you have to type in here the text and the bot will respond. If you have no idea what do ask you can write "What can you do?" for example');
+        messenger.receive('Hi, I\'m playbook bot. You can ask for links,WG\'s,PDL,team contact details,..etc.');
     }, 5000);
 
     $input.focus();
