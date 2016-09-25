@@ -2,7 +2,7 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var linkifyHtml = require('linkifyjs/html');
-
+var nlp=require('./nlp');
 var count=0;
 
 io.on('connection', function(socket){
@@ -11,10 +11,11 @@ io.on('connection', function(socket){
 
   socket.on('communicate',function(message){
     var bot_response=message.data
-    if(bot_response=='conversation_start_x'){ bot_response='hi'}
     count=count+1;
-    bot_response =linkifyHtml('hello this is the github link : http://github.com,  thayumaanavan@hpe.com')
-    socket.emit('bot_response', {'data': bot_response,'count':count});
+    nlp.getResponse(bot_response,function(response){
+        bot_response =linkifyHtml(response)
+        socket.emit('bot_response', {'data': bot_response,'count':count});
+    });
   });
 });
 

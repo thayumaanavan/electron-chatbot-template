@@ -1,0 +1,9 @@
+{
+   "ppmc":"http://ppmcespro.itcs.hpe.com/",
+   "catw":"https://pj1-ent.sapnet.hpecorp.net/hps-ic",
+   "hpsm":"https://eu-i.serviceportal.hp.com/sm/alu/index.do?lang=en",
+   "citrix":"https://sg110vpn01.omc.hp.net/dana-na/auth/url_default/welcome.cgi",
+   "workday":"https://wd5.myworkday.com/hpe/d/home.htmld",
+   "aslm-prod":"https://aslm.alcatel-lucent.com",
+   "aslm-stg":"https://aslm-stg.alcatel-lucent.com"  
+}
