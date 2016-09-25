@@ -1,10 +1,9 @@
-# electron-quick-start
+# electron-chatbot-template
 
-**Clone and run for a quick way to see an Electron in action.**
+This is a template to build desktop chatbot application.
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
 
-**Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
+## Electron Basics:
 
 A basic Electron application needs just these files:
 
@@ -18,21 +17,15 @@ You can learn more about each of these components within the [Quick Start Guide]
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
+Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
+
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/thayumaanavan/electron-chatbot-template
 # Go into the repository
-cd electron-quick-start
+cd electron-chatbot-template
 # Install dependencies and run the app
 npm install && npm start
 ```
-
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
-
-## Other Example Apps
-
-For more example apps, see the
-[list of boilerplates](http://electron.atom.io/community/#boilerplates)
-created by the awesome electron community.
 
 #### License [CC0 (Public Domain)](LICENSE.md)
