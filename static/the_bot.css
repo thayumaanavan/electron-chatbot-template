@@ -83,14 +83,14 @@ body {
 .nav .default-nav .main-nav .toggle {
   height: 32px;
   width: 32px;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/104946/ic_arrow_back_white_48dp.png);
+  background: url(ic_robot.png);
   background-size: contain;
   margin: 16px;
   float: left;
 }
-.nav .default-nav .main-nav .toggle:hover {
+/*.nav .default-nav .main-nav .toggle:hover {
   cursor: pointer;
-}
+}*/
 .nav .default-nav .main-nav .options {
   height: 32px;
   width: 32px;
@@ -117,7 +117,7 @@ body {
   position: relative;
   height: 64px;
   width: 100%;
-  text-align: center;
+  text-align: right;
   line-height: 64px;
   text-decoration: none;
   color: inherit;

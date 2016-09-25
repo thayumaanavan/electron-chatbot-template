@@ -98,9 +98,9 @@ $(document).ready(function () {
 
         setTimeout(sendHeartbeat, 10000);
 
-        setTimeout(function () {
+     /*   setTimeout(function () {
             socket.emit('communicate', {data: 'conversation_start_x'});
-        }, 1500);
+        }, 1500);  */
 
 
     });
