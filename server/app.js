@@ -13,7 +13,7 @@ io.on('connection', function(socket){
     var bot_response=message.data
     if(bot_response=='conversation_start_x'){ bot_response='hi'}
     count=count+1;
-    bot_response =linkifyHtml('http://github.com')
+    bot_response =linkifyHtml('hello this is the github link : http://github.com')
     socket.emit('bot_response', {'data': bot_response,'count':count});
   });
 });

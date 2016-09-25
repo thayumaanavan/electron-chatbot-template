@@ -127,7 +127,7 @@ $(document).ready(function () {
     }
 
     function safeText(text) {
-        $content.find('.message-wrapper').last().find('.text-wrapper').wrapInner(text);
+        $content.find('.message-wrapper').last().find('.text-wrapper').html(text);
     }
 
     function animateText() {
